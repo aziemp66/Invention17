@@ -3,12 +3,21 @@ body {
     color: antiquewhite;
 }
 main {
-    margin: 20px;
+    position: static;
 }
 #core {
+    text-align: center;
     margin: 0 auto;
-    width: 800px;
-    background-color: rgb(85, 83, 17);
+    width: 600px;
+    background-color: rgb(255, 204, 51);
     text-shadow: 1px 1px 2px black;
     padding: 30px;
+}
+#core h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+}
+#core p {
+    font-family: "Raleway", sans-serif;
+    text-align: left;
 }
