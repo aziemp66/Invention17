@@ -1,17 +1,19 @@
-body {
-    background-color: rgb(20, 20, 18);
-    color: antiquewhite;
+*,body{
+    padding: 0;
+    margin: 0;
 }
 main {
+    background-color: #141412;
+    color: #faebd7;
+}
+main {
+    display: block;
+    max-width: 100%;
     position: static;
 }
-#core {
+/* #core {
     text-align: center;
     margin: 0 auto;
-    width: 600px;
-    background-color: rgb(255, 204, 51);
-    text-shadow: 1px 1px 2px black;
-    padding: 30px;
 }
 #core h2 {
     font-family: "Oswald", sans-serif;
@@ -20,4 +22,10 @@ main {
 #core p {
     font-family: "Raleway", sans-serif;
     text-align: left;
+} */
+/*Responsive CSS*/
+@media (min-width: 1200px){
+    .container {
+        max-width: 1600px;
+    }
 }
