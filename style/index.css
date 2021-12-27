@@ -11,6 +11,10 @@ main {
     max-width: 100%;
     position: static;
 }
+a{
+    text-decoration: none;
+    list-style: none;
+}
 /* #core {
     text-align: center;
     margin: 0 auto;
