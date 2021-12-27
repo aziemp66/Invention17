@@ -1,4 +1,5 @@
-*,body{
+*,
+body {
     padding: 0;
     margin: 0;
 }
@@ -11,7 +12,7 @@ main {
     max-width: 100%;
     position: static;
 }
-a{
+a {
     text-decoration: none;
     list-style: none;
 }
@@ -27,8 +28,118 @@ a{
     font-family: "Raleway", sans-serif;
     text-align: left;
 } */
+
+/*Landing CSS Start*/
+#landing {
+    font-size: 12px;
+    padding-top: 4rem;
+    padding-bottom: 2.6rem;
+}
+.col-custom-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-start;
+    height: 100%;
+    gap: 4rem;
+}
+.heading-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+}
+#text-heading {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-top: 5rem;
+}
+#text-heading h1 {
+    font-family: "Kumbh Sans", sans-serif;
+    color: #fffffff8;
+    font-size: 6em;
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: 2px;
+}
+#text-heading #color1 {
+    color: #ffcc33;
+}
+#text-heading #color2 {
+    color: #119955;
+}
+.heading-text p {
+    width: 570px;
+    font-family: "Kumbh sans", sans-serif;
+    font-size: 1.7em;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.heading-link {
+    display: flex;
+    font-family: "Kumbh sans", sans-serif;
+    font-size: 12px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    gap: 2rem;
+}
+.heading-link a,
+.heading-link span {
+    color: #000;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-family: "Kumbh sans", sans-serif;
+    line-height: 2em;
+}
+.heading-link .btn-started {
+    width: 209px;
+    height: 58px;
+    border-radius: 85px;
+    font-weight: 500;
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 2em;
+    color: #000;
+    transition: all 0.4s;
+}
+.heading-link a:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 209px;
+    gap: 1rem;
+    transition: all 0.4s;
+    border-radius: 85px;
+    height: 58px;
+    transition: all 0.4s;
+}
+.heading-link a span {
+    color: #fff;
+}
+/*Landing CSS End*/
+/*Hover Effect Start*/
+.heading-link .btn-started:hover {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+.heading-link a:nth-child(2):hover {
+    transform: translateY(-5px);
+}
+/*Hover Effect End*/
+/*Landing CSS End*/
+
 /*Responsive CSS*/
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
     .container {
         max-width: 1600px;
     }
