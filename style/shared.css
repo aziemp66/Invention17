@@ -13,6 +13,8 @@ header h1 {
     font-size: 30px;
 }
 #page-logo {
+    display: flex;
+    align-items: center;
     font-family: "Oleo Script", sans-serif;
     font-weight: bold;
     font-size: 50px;
@@ -24,24 +26,41 @@ header h1 {
     color: #ffcc33;
     text-decoration: none;
 }
-header ul {
-    padding: 25px;
-    list-style: none;
+header nav ul {
     display: flex;
-    margin: 0;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    list-style: none;
+    padding: 10px 100px;
+    margin-bottom: 0 !important;
+    gap: 3rem;
 }
-header li {
-    margin: 0 20px;
+nav .menu li{
+    display: block;
+    width: 120px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 0 15px #000;
+    transition: all .4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    text-align: center;
 }
-header li a {
+nav .menu #home-id {
+    width: 85px;
+}
+.menu li a {
     color: #ffcc33;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .4s;
+    z-index: 10;
+}
+.menu li a:hover{
+    color: #fff;
     text-decoration: none;
 }
-header li a:hover {
-    padding: 5px;
-    border-radius: 6px;
-    background-color: #ffcc33;
-    color: #1b1919;
-    text-decoration: none;
-}
-/*Header CSS End*/
