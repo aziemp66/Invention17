@@ -18,7 +18,7 @@ body::-webkit-scrollbar-thumb {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 15px 60px;
+  padding: 10px 60px;
   background-color: rgb(27, 25, 25);
 }
 header h1 {
@@ -29,7 +29,7 @@ header h1 {
   align-items: center;
   font-family: "Oleo Script", sans-serif;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 4git0px;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
   text-transform: uppercase;
   color: #ffcc33;
@@ -46,7 +46,7 @@ header nav ul {
   height: 100%;
   align-items: center;
   list-style: none;
-  padding: 10px 100px;
+  padding: 10px 50px;
   margin-bottom: 0 !important;
   gap: 3rem;
 }
