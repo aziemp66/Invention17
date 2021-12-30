@@ -237,6 +237,14 @@ a {
     }
 }
 @media only screen and (max-width: 375px){
+    .footer-link img {
+        width: 70%;
+        height: auto;
+    }
+    .footer-text p {
+        font-weight: 500;
+        font-size: .9rem;
+    }
     .heading-text #text-heading h1 {
         font-size: 2.8em;
     }
@@ -277,5 +285,9 @@ a {
     .heading-link a:nth-child(2), .heading-link .btn-started {
         width: 120px;
         height: 34px;
+    }
+    .footer-link img {
+        width: 80%;
+        height: auto;
     }
 }
