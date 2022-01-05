@@ -8,6 +8,7 @@ main {
   color: #faebd7;
 }
 main {
+<<<<<<< HEAD
   display: block;
   max-width: 100%;
   position: static;
@@ -15,6 +16,16 @@ main {
 a {
   text-decoration: none;
   list-style: none;
+=======
+    display: block;
+    max-width: 100%;
+    position: relative;
+}
+a {
+    text-decoration: none;
+    list-style: none;
+    color:#ffcc33
+>>>>>>> upstream/main
 }
 /* #core {
     text-align: center;
@@ -28,8 +39,28 @@ a {
     font-family: "Raleway", sans-serif;
     text-align: left;
 } */
-
+header nav #hamburger-menu{
+    display: none;
+}
 /*Landing CSS Start*/
+#hamburger-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    padding: 20px 20px;
+    justify-content: center;
+    background-color: #1b1919;
+    text-align: center;
+    z-index: 10;
+}
+.hamburger-menu li{
+    padding-bottom: 1rem;
+}
+.hamburger-menu li{
+    list-style: none;
+}
 #landing {
   font-size: 12px;
   padding-top: 4rem;
@@ -99,6 +130,7 @@ a {
   line-height: 2em;
 }
 .heading-link .btn-started {
+<<<<<<< HEAD
   width: 209px;
   height: 58px;
   border-radius: 85px;
@@ -121,6 +153,29 @@ a {
   border-radius: 85px;
   height: 58px;
   transition: all 0.4s;
+=======
+    width: 209px;
+    height: 58px;
+    border-radius: 85px;
+    font-weight: 500;
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 2em;
+    color: #000;
+    transition: all .4s;
+}
+.heading-link a:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 209px;
+    gap: 1rem;
+    border-radius: 85px;
+    height: 58px;
+    transition: all .4s;
+>>>>>>> upstream/main
 }
 .heading-link a span {
   color: #fff;
@@ -144,8 +199,185 @@ a {
 /*Landing CSS End*/
 
 /*Responsive CSS*/
+<<<<<<< HEAD
 @media (min-width: 1200px) {
   .container {
     max-width: 1600px;
   }
+=======
+@media only screen and (min-width: 1200px){
+    .container {
+        max-width: 1600px;
+    }
+>>>>>>> upstream/main
+}
+@media only screen and (max-width: 1440px) {
+    .col-custom-1{
+        text-align: right;
+    }
+    .col-custom-1 img{
+        width: 490px;
+    }
+    #landing {
+        font-size: 11px;
+    }
+    .heading-text {
+        width: 90%;
+    }
+    .heading-text #text-heading h1{
+        font-size: 5em;
+    }
+    .heading-text p {
+        width: 502px;
+        font-size: 1.6em;
+    }
+    .heading-link {
+        justify-content: flex-start;
+        width: 90%;
+    }
+    .col-custom-2{
+        padding-left: 4rem;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    #landing {
+        padding-bottom: 4rem;
+    }
+     .col-custom-1{
+        text-align: center;
+    }
+    .col-custom-2 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        gap: 3rem;
+    }
+    .heading-text {
+        align-items: center;
+    }
+    .heading-link {
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 15px 21px;
+    }
+    #page-logo {
+        font-size: 20px;
+    }
+    header nav ul {
+        padding: 0;
+        margin-bottom: 0 !important;
+        gap: 0; 
+    }
+    .col-custom-1,
+    .col-custom-2 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .col-custom-1 img {
+        width: 315px;
+    }
+    #text-heading {
+        margin-top: 3rem;
+    }
+    .heading-text #text-heading h1 {
+        font-size: 3em;
+    }
+    .heading-text p {
+        width: 324px;
+        font-size: 1.3em;
+    }
+
+    .heading-link a, .heading-link span {
+        font-size: 1.1em;
+    }
+    .heading-link .btn-started {
+        font-size: 1.1em;
+    }
+    .heading-link a:nth-child(2),
+    .heading-link .btn-started {
+        width: 153px;
+        height: 41px;
+    }
+}
+@media only screen and (max-width: 425px){
+    header nav .menu{
+        display: none;
+    }
+    header nav #hamburger-menu{
+        display: flex;
+        width: 100%;
+        padding: 10px 0;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    #hamburger-menu .hamburger-i{
+        display: block;
+        width: 55%;
+        height: auto;
+        cursor: pointer;
+        fill: #ffcc33;
+    }
+}
+@media only screen and (max-width: 375px){
+    #hamburger-content a{
+        font-size: 14px;
+    }
+    .footer-link img {
+        width: 70%;
+        height: auto;
+    }
+    .footer-text p {
+        font-weight: 500;
+        font-size: .9rem;
+    }
+    .heading-text #text-heading h1 {
+        font-size: 2.8em;
+    }
+    .menu li a {
+        font-size: .8em;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    header {
+        padding: 13px;
+    }
+    #page-logo {
+        font-size: 18px;
+    }
+    nav .menu li{
+        width: auto;
+    }
+    nav .menu #home-id {
+        width: 65px;
+    }
+    .col-custom-1 img {
+        width: 250px;
+    }
+    #text-heading {
+        margin-top: 2rem;
+    }
+    .heading-text #text-heading h1 {
+        font-size: 2.3em;
+    }
+    .heading-text p {
+        width: 255px;
+        font-size: .9em;
+    }
+    .heading-link a, .heading-link span {
+        font-size: 9.9px;
+    }
+    .heading-link a:nth-child(2), .heading-link .btn-started {
+        width: 120px;
+        height: 34px;
+    }
+    .footer-link img {
+        width: 80%;
+        height: auto;
+    }
 }
