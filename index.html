@@ -37,42 +37,33 @@
                     </a>
                 </li>
             </ul>
+            <!--Humberger Icon Show/Hide-->
+            <span id="hamburger-menu">
+                <svg class="hamburger-i" fill="#000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="60px"
+                    height="60px">
+                    <path
+                        d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z" />
+                </svg>
+            </span>
         </nav>
     </header>
     <main>
-        <!-- <section id="core">
-                <div>
-                    <h2>Invention</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Ducimus fuga inventore a, qui explicabo asperiores
-                        dolorem dolores, temporibus sed cum accusantium debitis
-                        ab, velit doloremque maxime! Laborum dolores quisquam
-                        quaerat. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Sequi, laboriosam error. Illum
-                        blanditiis sit quam quae, omnis voluptatibus, et
-                        architecto sapiente expedita libero quasi odio? Velit
-                        illo nobis nesciunt corporis.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Facere tempora laborum rerum, eius voluptate dignissimos
-                        cumque quae, consequatur, mollitia aspernatur recusandae
-                        iusto saepe inventore officiis alias molestiae qui enim
-                        nulla. Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit. Impedit ad exercitationem, quaerat
-                        voluptatem nulla vero commodi illum quidem reprehenderit
-                        nisi ratione fugit inventore rem quod, mollitia dolores
-                        animi iure quisquam.
-                    </p>
-                </div>
-            </section> -->
-        <section class="container" id="landing">
+        <section id="hamburger-content">
+            <ul class="hamburger-menu">
+                <li id="home-id"><a href="./index.html">Home</a></li>
+                <li>
+                    <a href="https://github.com/aziemp66/Invention17">
+                        About Website
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="container opacityBg" id="landing">
             <div class="row h-100">
-                <div class="col-custom-1 col-xl-5 my-auto">
+                <div class="col-custom-1 col-sm-12 col-md-12 col-xl-5 my-auto">
                     <img src="./images/Invention17.png" alt="Invention17" srcset="" />
                 </div>
-                <div class="col-custom-2 col-xl-7">
+                <div class="col-custom-2 col-sm-12 col-md-12 col-xl-7">
                     <div class="heading-text">
                         <span id="text-heading">
                             <h1>Find <span id="color1">something</span></h1>
@@ -105,19 +96,57 @@
         <section id="newsfeed">
             <div></div>
         </section>
+        <!-- <section id="core">
+                        <div>
+                            <h2>Invention</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Ducimus fuga inventore a, qui explicabo asperiores
+                                dolorem dolores, temporibus sed cum accusantium debitis
+                                ab, velit doloremque maxime! Laborum dolores quisquam
+                                quaerat. Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Sequi, laboriosam error. Illum
+                                blanditiis sit quam quae, omnis voluptatibus, et
+                                architecto sapiente expedita libero quasi odio? Velit
+                                illo nobis nesciunt corporis.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Facere tempora laborum rerum, eius voluptate dignissimos
+                                cumque quae, consequatur, mollitia aspernatur recusandae
+                                iusto saepe inventore officiis alias molestiae qui enim
+                                nulla. Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Impedit ad exercitationem, quaerat
+                                voluptatem nulla vero commodi illum quidem reprehenderit
+                                nisi ratione fugit inventore rem quod, mollitia dolores
+                                animi iure quisquam.
+                            </p>
+                        </div>
+                    </section> -->
     </main>
     <footer>
-        <ul>
-            <li>
-                <a href="https://www.instagram.com/melza.moment/"><img src="/images/icon/insta.png"
-                        alt="invention-instagram" /></a>
-            </li>
-            <li>
-                <a href="https://github.com/aziemp66/Invention17"><img src="/images/icon/github.png"
-                        alt="invention-github" /></a>
-            </li>
-        </ul>
+        <section class="footer-link opacityBg">
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/melza.moment/"><img src="./images/icon/insta.png"
+                            alt="invention-instagram" /></a>
+                </li>
+                <li>
+                    <a href="https://github.com/aziemp66/Invention17"><img src="./images/icon/github.png"
+                            alt="invention-github" /></a>
+                </li>
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=+6285368701700"><img src="./images/icon/whatsapp.png"
+                            alt="invention-whatsapp" /></a>
+                </li>
+            </ul>
+        </section>
+        <section class="footer-text">
+            <p><span>&copy;</span> 2021 Invention17</p>
+        </section>
     </footer>
+    <!--Script-->
+    <script src="./script/index.js"></script>
 </body>
 
 </html>
