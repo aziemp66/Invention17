@@ -5,7 +5,7 @@ Link : https://invention17.netlify.app/
 1. Cara memulai kontribusi :
 
 ```
-$ git clone git@github.com:aziemp66/Invention17.git
+$ git clone https://github.com/aziemp66/Invention17.git
 $ cd Invention17
 $ npx http-server 
 ```
